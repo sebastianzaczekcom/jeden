@@ -2,9 +2,108 @@
 <html>
 <head>
 <title>tytuł strony</title>
-<meta charset=UTF-8" /> 
+<meta charset=UTF-8" />
+
+<!--
+<link rel="stylesheet" type="text/css" href="example.css">
+-->
+
+<style>
+
+body {
+	background-color: #3b4c68;
+	}
+
+#title {
+	border: 5px solid #4c6082;
+	text-align: center
+	}
+	
+h2 {color: #9eb8e2;}
+h3 {
+	color: #fff;
+	}
+
+p {color: #9eb8e2;}	
+
+a {color: #fff;
+	text-decoration: none;}	
+	
+#centered {
+	width: 720px;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#kontener {
+	background-color: #4c6082;
+	padding: 10px;
+}
+
+hr {border: 5px solid #4c6082}
+
+@media only screen and (max-width: 1200px) {
+#prawe_menu { display: block; }
+}
+@media only screen and (max-width: 680px) {
+#prawe_menu { display: none; }
+}
+
+</style>
+
+
 </head>
 <body>
-właściwa treść (ciało) dokumentu
+
+<div id="centered">
+
+	<div id="title"><h2>BLOG #NONAME</h2></div>
+	
+	<br /><br />
+
+	<h3>WPIS #3</h3>
+	<hr />
+	
+	<div id="kontener">
+	
+		<img src="http://sebastianzaczek.com/wp-content/uploads/2018/10/tt.png" alt="img1" />
+		
+		<p>Tutaj widzimy jak wygląda fragment ścieżki pomiędzy lądowiskiem a ośrodkiem badawczym.</p>
+	
+		<p><a href="http://sebastianzaczek.com">sebastianzaczek.com</a></p>
+	</div>
+	
+	<br /><br />
+	
+
+	<h3>WPIS #2</h3>
+	<hr />
+	
+	<div id="kontener">
+	
+		<img src="http://sebastianzaczek.com/wp-content/uploads/2018/10/2.png" alt="img1" />
+	
+		<p>To jest screen z początków silnika ruchu postaci, który swoją drogą jest już całkiem spoko.</p>
+	
+		<p><a href="http://sebastianzaczek.com">sebastianzaczek.com</a></p>
+	</div>
+	
+	<br /><br />
+	
+
+	<h3>WPIS #1</h3>
+	<hr />
+	
+	<div id="kontener">
+	
+		<img src="http://sebastianzaczek.com/wp-content/uploads/2018/10/LLL.png" alt="img1" />
+	
+		<p>To jest zjęcie z jednedo z pierwszych wpisów na moim blogu odnośnie projektu gry na pc, który tworzę.</p>
+	
+		<p><a href="http://sebastianzaczek.com">sebastianzaczek.com</a></p>
+	</div>
+</div>
+
 </body>
 </html>
